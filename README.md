@@ -1,26 +1,78 @@
-# بورتفوليو براء الحداد
+# Baraa Al-Haddad | Personal Portfolio
 
-صفحة رئيسية وأربع صفحات للأعمال (HTML وCSS فقط، بدون JavaScript ولا اتصال بخدمات خارجية). الخطوط والصور داخل المجلد.
+A personal portfolio website showcasing my work, projects, and experience as a Flutter Developer and Software Engineer.
 
-## النشر على GitHub Pages
+## 🌐 Live Website
 
-1. أنشئ مستودعاً باسم `Baraaelh.github.io` (نفس اسم حسابك بالضبط).
-2. ارفع **محتويات** هذا المجلد إلى جذر المستودع (يجب أن يكون `index.html` في الجذر).
-3. من المستودع: Settings ← Pages ← Deploy from a branch ← `main` ← `/ (root)` ← Save.
-4. بعد دقيقة يعمل الموقع على `https://baraaelh.github.io`.
+[baraaelh.github.io](https://baraaelh.github.io)
 
-## الهيكل
+## 📌 About the Project
 
+This portfolio is built using pure HTML and CSS, without JavaScript or external service dependencies.
+
+It includes a homepage and four dedicated project pages, presenting selected applications and development work.
+
+## 🛠️ Technologies
+
+- HTML5
+- CSS3
+- Responsive Web Design
+- Google Fonts (locally hosted)
+- Local Images and Assets
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── index.html
+│
+├── work/
+│   ├── rajeali.html
+│   ├── multicam.html
+│   ├── pharmacylink.html
+│   └── farah.html
+│
+├── css/
+│   └── style.css
+│
+├── images/
+│   └── Project screenshots and profile images
+│
+├── fonts/
+│   └── Reem Kufi & IBM Plex Sans Arabic
+│
+└── README.md
 ```
-index.html          الصفحة الرئيسية
-work/*.html         صفحة لكل عمل (رجعلي، Multicam، PharmacyLink، فرح)
-css/style.css       التصميم (الألوان في أول الملف)
-images/             صورتك ولقطات التطبيقات
-fonts/              Reem Kufi وIBM Plex Sans Arabic (رخصة OFL)
-```
 
-## تعديلات شائعة
+## 🚀 Deployment
 
-- **النصوص**: افتح الملف المناسب وعدّل الفقرات مباشرة.
-- **لون كل عمل**: في وسم `<a class="project" style="--c:...">` في الرئيسية، و`<body style="--c:...">` في صفحة العمل.
-- **تغيير لقطة**: استبدل الصورة في `images/` بالاسم نفسه (مثل `rajeali-1.webp`) وبعرض 640 بكسل.
+This website is hosted using GitHub Pages.
+
+To deploy your own version:
+
+1. Create a repository named `Baraaelh.github.io`.
+2. Upload all project files and folders to the repository root.
+3. Open **Settings → Pages**.
+4. Select **Deploy from a branch**.
+5. Choose `main` and `/ (root)`.
+6. Click **Save**.
+
+Your website will be available at:
+
+`https://baraaelh.github.io`
+
+## 🎨 Customization
+
+- **Content:** Edit the relevant HTML files.
+- **Colors:** Modify the CSS variables or the `--c` custom property in the HTML files.
+- **Images:** Replace images inside the `images/` directory while keeping the same filenames.
+- **Fonts:** Local font files are stored in the `fonts/` directory.
+
+## 📄 License
+
+This project is intended to showcase my personal portfolio and development work.
+
+---
+
+**Designed and developed by Baraa Al-Haddad.**
